@@ -1,0 +1,33 @@
+package br.com.lojauati.modelo;
+
+public class Formula1 {
+	private String escuderia;
+	private float valor;
+	private int rpm;
+		
+	public String exibirEscuderia() {
+		return escuderia;
+	}
+	public void preencherEscuderia(String parametro) {
+		escuderia = parametro.toUpperCase();
+	}
+	public float exibirrValor() {
+		return valor;
+	}
+	public void preencherValor(float parametro) {
+		if (parametro>0 ) {
+			valor = parametro;
+		}
+	}
+	public int exibirRpm() {
+		return rpm;
+	}
+	public void preencherRpm(int parametro) {
+		rpm = parametro;
+	}
+}
+
+/*
+ * Sintaxe para criação de método no Java
+ * <modificador> <tipo do retorno> <nome do metodo> (tipo do parametro)
+ */

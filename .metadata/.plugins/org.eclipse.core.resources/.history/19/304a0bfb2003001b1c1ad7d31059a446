@@ -1,0 +1,20 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioRepeticao {
+
+	public static void main(String[] args) {
+		
+		int jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 1, digite um número"));
+		int jogador2 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 2, qual número o Jogador 1 digitou?"));
+		do {
+			char resposta=0;
+			resposta = JOptionPane.showInputDialog("Você errou. Tente novamente").charAt(0);
+		} while (resposta = (jogador2==jogador1)) {
+			System.out.println("Parabéns! Você acertou!");
+		}
+
+	}
+
+}

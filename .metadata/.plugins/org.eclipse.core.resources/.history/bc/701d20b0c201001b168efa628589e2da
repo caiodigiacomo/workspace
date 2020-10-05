@@ -1,0 +1,23 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class ManipulaString {
+
+	public static void main(String[] args) {
+		//String é do tipo referencia
+		String email = JOptionPane.showInputDialog("Digite seu e-mail");
+		System.out.println("E-mail: " + email);
+		System.out.println("Minusculo: " + email.toLowerCase());
+		System.out.println("Maiusculo: " + email.toUpperCase());
+		System.out.println("Posição do @: " + email.indexOf("@"));
+		System.out.println("Existe @? " + email.contains("@"));
+		System.out.println("Quantidade caracteres? " + email.length());
+		
+		
+		
+		
+
+	}
+
+}

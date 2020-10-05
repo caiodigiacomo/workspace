@@ -1,0 +1,28 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		String nome = (JOptionPane.showInputDialog("Digite o nome do cliente"));
+		double investimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
+		double fidelidade = Double.parseDouble(JOptionPane.showInputDialog("Digite quantos anos serão de fidelidade"));
+		String regiao = (JOptionPane.showInputDialog("Digite a região onde mora"));
+		
+		if (investimento<1000) {
+		investimento = investimento * 1.015;
+		}else if (investimento>=1000 && investimento<5000) {
+		investimento = investimento * 1.02;
+		}else if (investimento>=5000) {
+			investimento = investimento * 1.03;
+		}else if (fidelidade>5) {
+			investimento = investimento * 1.01;
+		}
+		System.out.println("O valor investido é: " + investimento);
+		
+
+	}
+
+}

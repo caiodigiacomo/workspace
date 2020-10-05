@@ -1,0 +1,32 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+
+	public static void main(String[] args) {
+		/*
+		 * Identificadores = nomes (classe, variavel...)
+		 * Regras:
+		 * 1º não começaras com numeros... 1berto (errado), h1berto (certo)
+		 * 2º não usaras caracteres especiais (@, #, ~...) exceção: underline (_)
+		 * 3º não utilizaras palavras reservadas da linguagem (class, main, public, int...)
+		 * 
+		 * Padrões (variaveis):
+		 * - nomes significativos
+		 * - sempre começam com letra minuscula
+		 * - utilizar padrão camel case
+		 * 
+		 */
+		
+		String nome = JOptionPane.showInputDialog("Digite o nome do aluno").toUpperCase();
+		float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 1: "));
+		float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 2: "));
+		float media = (nota1 + nota2) / 2;
+		System.out.println("Aluno " + nome + "sua média foi " + media);
+		
+		
+		
+	}
+
+}

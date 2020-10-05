@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.modelo.Produto"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.modelo.Cliente"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.modelo.Venda"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.modelo.Endereco"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.tela.Magica"/>
+</qualifiedTypeNameHistroy>

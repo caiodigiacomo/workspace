@@ -1,0 +1,14 @@
+package br.com.universidade.implementacao;
+
+import br.com.universidade.modelo.Aluno;
+
+public class ImplementacaoAluno {
+
+	public static void main(String[] args) {
+		
+		Aluno al = new Aluno();
+		
+
+	}
+
+}

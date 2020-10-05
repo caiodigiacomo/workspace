@@ -1,0 +1,16 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioGeral {
+
+	public static void main(String[] args) {
+		char resposta = 0;
+		do {
+		String nome = (JOptionPane.showInputDialog("Digite o nome da pessoa"));
+		short idade = Short.parseShort(JOptionPane.showInputDialog("Digite a idade da pessoa"));
+		resposta = JOptionPane.showInputDialog("Deseja continuar? Digite <S> para continuar").toUpperCase().charAt(0);
+		}while (resposta=='S');
+	}
+
+}

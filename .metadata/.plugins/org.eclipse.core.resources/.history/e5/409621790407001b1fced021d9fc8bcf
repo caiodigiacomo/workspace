@@ -1,0 +1,36 @@
+package br.com.universidade.modelo;
+
+public class Medio extends Formacao {
+
+	private int tipo;
+
+	public String getAll() {
+		return
+				super.getAll() + "\n" +
+				"Tipo: " + tipo;
+	}
+
+	public void setAll(float p1, String p2, int p3, int p4) {
+		super.setAll(p1, p2, p3);
+		tipo=p4;
+	}
+	
+	public Medio() {
+		super();
+	}
+
+	public Medio(int tipo) {
+		super();
+		this.tipo = tipo;
+	}
+
+	public int getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(int tipo) {
+		this.tipo = tipo;
+	}
+	
+	
+}

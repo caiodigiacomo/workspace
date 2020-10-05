@@ -1,0 +1,35 @@
+package br.com.universidade.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.universidade.modelo.Endereco;
+import br.com.universidade.modelo.Professor;
+
+public class ImplementacaoProfessor {
+
+	public static void main(String[] args) {
+		
+		Endereco endereco = new Endereco();
+		endereco.setAll(
+				(JOptionPane.showInputDialog("Logradouro")),
+				(JOptionPane.showInputDialog("Bairro")), 
+				(JOptionPane.showInputDialog("Cidade")), 
+				(JOptionPane.showInputDialog("Estado")), 
+				(JOptionPane.showInputDialog("CEP")), 
+				(JOptionPane.showInputDialog("Número")), 
+				(JOptionPane.showInputDialog("Complemento"))
+				);
+		
+		Professor pr = new Professor();
+		pr.setAll(
+				Integer.parseInt(JOptionPane.showInputDialog("ID")), 
+				JOptionPane.showInputDialog("Nome"), 
+				Float.parseFloat(JOptionPane.showInputDialog("Valor hora")),
+				JOptionPane.showInputDialog("Formação"),
+				endereco
+				);
+		System.out.println(pr.getAll());
+
+	}
+
+}

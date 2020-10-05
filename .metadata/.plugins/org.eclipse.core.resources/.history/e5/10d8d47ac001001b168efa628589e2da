@@ -1,0 +1,14 @@
+package variaveis;
+
+public class ManipulaString {
+
+	public static void main(String[] args) {
+		//String é do tipo referencia
+		String email = JOptionPane.showInputDialog("Digite seu e-mail");
+		System.out.println("E-mail: " + email);
+		
+		
+
+	}
+
+}

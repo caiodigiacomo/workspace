@@ -1,0 +1,19 @@
+package variaveis;
+
+public class ExemploProduto {
+
+	public static void main(String[] args) {
+
+		String nome = "";
+		int quantidade=0;
+		double valor=0;
+		double desconto = quantidade * 0.9;
+		
+		System.out.println("Total: " + quantidade);
+		System.out.println("Nome do produto: " + nome);
+		System.out.println("Total com desconto: " + desconto);
+		
+
+	}
+
+}

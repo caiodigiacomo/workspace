@@ -1,0 +1,30 @@
+package variaveis;
+
+public class Variavel {
+//Variavel é um espaço temporário na memória RAM onde você armazena um dado
+	public static void main(String[] args) {
+		//Sintaxe para criar variaveis
+		// <tipo do dado> <nome da variavel>;
+		/*
+		 * Tipos de Dados:
+		 * a) Numérico: dado que será utilizado em uma operação matemática e/ou for um dado crítico para consulta.
+		 * CEP no contexto dos correios
+		 * b) Alfanumérico: dado que não é utilizado para operações matemáticas.
+		 * CEP no contexto do RH do Itau
+		 */
+		String nome = "";
+		int idade = 0;
+		double altura=0;
+		
+		nome = "CAIO";
+		idade = 29;
+		altura = 1.68;				
+		
+		System.out.println(nome);
+		System.out.println(idade);
+		System.out.println(altura);
+		
+		
+		
+	}
+}

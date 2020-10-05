@@ -1,0 +1,27 @@
+package br.com.universidade.modelo;
+
+public class Aluno {
+
+	private int rm;
+	private String nome;
+	private String email;
+	
+	public void preencherRm(int matricula) {
+		matricula=rm;
+	}
+	public void preencherNome(String nomealuno) {
+		nomealuno=nome;
+	}
+	public void preencherEmail(String emailaluno) {
+		emailaluno=email;
+	}
+	public void exibirRm(int matricula) {
+		matricula=rm;
+	}
+	public void exibirNome(String nomealuno) {
+		nomealuno=nome;
+	}
+	public void exibirEmail(String emailaluno) {
+		emailaluno=email;
+	}
+}

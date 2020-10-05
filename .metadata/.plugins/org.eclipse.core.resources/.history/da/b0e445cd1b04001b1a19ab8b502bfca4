@@ -1,0 +1,21 @@
+package br.com.universidade.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.universidade.modelo.Aluno;
+
+public class ImplementacaoAluno {
+
+	public static void main(String[] args) {
+		
+		Aluno al = new Aluno();
+		al.setAll(
+				Integer.parseInt(JOptionPane.showInputDialog("RM")), 
+				JOptionPane.showInputDialog("Nome"), 
+				JOptionPane.showInputDialog("Email")
+				);
+		System.out.println(al.getAll());
+
+	}
+
+}

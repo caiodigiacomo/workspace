@@ -1,0 +1,11 @@
+package repeticao;
+
+public class ExercicioGeral {
+
+	public static void main(String[] args) {
+		
+		String nome = "";
+		int idade = 0;
+		char resposta = 0;
+		
+	}
